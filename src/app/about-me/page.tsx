@@ -9,7 +9,7 @@ import Link from "next/link"
 export default function AboutMe() {
 
     return (
-        <section className="flex flex-1 justify-between items-center gap-8">
+        <section className="flex flex-1 flex-col justify-between items-center gap-8 md:flex-row">
             <div>
                 <Image src={meImage} alt="meImage" />
             </div>
